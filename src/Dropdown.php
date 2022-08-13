@@ -24,11 +24,12 @@ use function is_string;
  * ```php
  * <div class="dropdown">
  *     <?php
- *         echo Dropdown::widget()
- *             ->items([
+ *         echo Dropdown::widget([
+ *              'items' => [
  *                 ['label' => 'DropdownA', 'url' => '/'],
  *                 ['label' => 'DropdownB', 'url' => '#'],
- *             ]);
+ *              ]
+ *          ]);
  *     ?>
  * </div>
  * ```
